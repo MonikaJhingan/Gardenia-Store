@@ -1,0 +1,101 @@
+@import url(https://fsharpui.netlify.app/main.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 3rem;;
+}
+
+:root{
+  --white-color:#fff;
+  --grey-color:#808080;
+  --peach-color:rgb(241, 203, 219);
+
+}
+.navigation {
+  margin: 0rem;
+  width: 100%;
+  background-color: var(--peach-color);
+}
+
+.icon-heart,
+.icon-cart {
+  font-size: 3rem;
+}
+
+
+.main-title {
+  align-self: center;
+}
+.topdeal-container {
+  width: 100%;
+}
+.badge {
+  border-radius: 3rem;
+  background-color:magenta;
+}
+
+.text-grey {
+  color: var(--grey-color);
+}
+
+.moredeal-container {
+  width: 60%;
+}
+
+.text-card {
+  height: 6rem;
+}
+
+.moredeal-option {
+  background-color: transparent;
+  border: 0rem;
+}
+
+.footer {
+  height: 15rem;
+}
+
+.footer__icon {
+  display: flex;
+  justify-content: space-around;
+  width: 10rem;
+  height: 10rem;
+}
+
+.card-container {
+  height: 52rem;
+}
+
+.btn-link {
+  width: 20rem;
+  height: 4rem;
+}
+.code-container {
+    width: 100%;
+  }
+  
+  .section__img {
+    width: 100%;
+  }
+  
+  .header__icon,
+  .header__nav {
+    width: 10rem;
+    height: 5rem;
+  }
+  
+  .hero {
+    height: 60vh;
+  }
+  
+  .footer {
+    height: 25rem;
+  }
+  
+  .footer__icon {
+    display: flex;
+    justify-content: space-around;
+    width: 10rem;
+    height: 10rem;
+  }
