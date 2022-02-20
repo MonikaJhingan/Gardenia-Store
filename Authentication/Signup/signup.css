@@ -1,0 +1,63 @@
+@import url(https://fsharpui.netlify.app//main.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white-color:#fff;
+    --grey-color:#808080;
+    --peach-color:rgb(241, 203, 219);
+
+  }
+  .navigation {
+    margin: 0rem;
+    width: 100%;
+    background-color: var(--peach-color);
+  }
+  
+  
+  .icon-heart,
+  .icon-cart {
+    font-size: 3rem;
+  }
+
+  .form-container{
+      height: 100vh;
+  }
+
+  .label-text{
+      font-size:2.5rem;
+      margin: 2px 2px;
+      
+  }
+
+.input{
+      height: 2.6rem;
+      width: 50rem;
+      font-size: 3rem;
+      background-color: var(--peach-color);
+  }
+
+  .show-password{
+      font-size: 0.5rem;
+  }
+
+  .show-password-checkbox{
+      font-size: 1rem;
+  }
+
+  .hover-underline{
+      margin: 0.8rem;
+  }
+
+  .hover-underline:hover{
+    
+      cursor: pointer;
+      text-decoration: underline;
+  }
+  .img{
+      height: 15rem;
+      width: 40rem;
+
+  }
