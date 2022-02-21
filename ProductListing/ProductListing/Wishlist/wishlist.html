@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./wishlist.css" />
+    <title>Gardenia Store</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav-sitename">
+        <h1><a href="../../index.html" class="nav-logo anchor">Gardenia Store</a></h1>
+      </div>
+
+      <div class="nav__searchbar">
+        <input type="text" class="input" />
+        <button class="btn btn-secondary">Search</button>
+      </div>
+
+      <div class="nav-other">
+        <a href="./Authentication/Login/login.html">
+          <button class="btn btn-default">Log In</button></a
+        >
+
+        <div class="icon">
+          <a href="./wishlist.html" class="anchor"> <i class="fa fa-heart icon-heart"></i></a>
+          <span class="icon-text">Wishlist</span>
+        </div>
+
+        <div class="icon">
+          <a href="../Cart/cart.html" class="anchor"
+            ><i class="fa fa-shopping-cart icon-cart"></i
+          ></a>
+          <span class="icon-text">Cart</span>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-flex flex-center">
+      <h2 class="font-xl">My Wishlist (2)</h2>
+    </div>
+    <br />
+
+    <main class="container-flex">
+      <section class="wishlist-item">
+        <div class="container-flex flex-wr">
+
+      
+          <div class="card-container container-flex flex-column">
+            <div class="image-container badge-container">
+              <img
+                src="pinklily.jpg"
+                class="img"
+                alt="flower image"
+              />
+            </div>
+            <div class="card-title container-flex">
+              <p class="font-medium margin-m1 padding-p1">
+                Pink Lillies
+            </p>
+              <span class="margin-m1 font-medium wishlist-icon"
+                ><i class="fa fa-heart" aria-hidden="true"></i
+              ></span>
+            </div>
+            <div class="container-flex flex-column">
+              <p class="card-description margin-m1 padding-p2">
+                Bouquet of 5 Pink lillies with three green stems in a medium glass vase.
+            </p>
+              <p class="card-price margin-m1 padding-p2">
+                Rs. 1975 <strike class="card-strikeprice">Rs. 2195</strike>
+                <span class="card-discount">(10% Off)</span>
+              </p>
+              <button class="btn-shopping-cart font-medium">Add to cart</button>
+            </div>
+          </div>
+
+          <div class="card-container container-flex flex-column">
+            <div class="image-container badge-container">
+              <img
+                src="mixedflowers.jpg"
+                class="img"
+                alt="flower image"
+              />
+            </div>
+            <div class="card-title container-flex">
+              <p class="font-medium margin-m1 padding-p1">
+                Mixed Flowers
+              </p>
+              <span class="margin-m1 font-medium wishlist-icon"
+                ><i class="fa fa-heart" aria-hidden="true"></i
+              ></span>
+            </div>
+            <div class="container-flex flex-column">
+              <p class="card-description margin-m1 padding-p2">
+                Fragrant 10 Mixed Flowers with two green stems in a medium glass vase.
+              <p class="card-price margin-m1 padding-p2">
+                Rs. 1975 <strike class="card-strikeprice">Rs. 2195</strike>
+                <span class="card-discount">(10% Off)</span>
+              </p>
+              <button class="btn-shopping-cart font-medium">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
