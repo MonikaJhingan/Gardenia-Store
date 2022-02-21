@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./product.css" />
+    <title>Gardenia Store</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav-sitename">
+        <h1><a href="#" class="nav-logo anchor">Gardenia Store</a></h1>
+      </div>
+
+      <div class="nav__searchbar">
+        <input type="text" class="input" />
+        <button class="btn btn-secondary">Search</button>
+      </div>
+
+      <div class="nav-other">
+        <a href="./Authentication/Login/login.html">
+          <button class="btn btn-default">Log In</button></a
+        >
+
+        <div class="icon">
+          <a href="" class="anchor"> <i class="fa fa-heart icon-heart"></i></a>
+          <span class="icon-text">Wishlist</span>
+        </div>
+
+        <div class="icon">
+          <a href="" class="anchor"
+            ><i class="fa fa-shopping-cart icon-cart"></i
+          ></a>
+          <span class="icon-text">Cart</span>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container-flex">
+      <section class="filters">
+        <div class="container-flex flex-sa">
+          <h2 class="font-l">Filters</h2>
+          <p class="font-medium">Clear</p>
+        </div>
+
+        <div>
+          <p class="font-medium">
+            Rating <br>
+            <span class="font-medium">*</span><br>
+            <span class="font-medium">**</span><br>
+            <span class="font-medium">***</span><br>
+            <span class="font-medium">****</span><br>
+            <span class="font-medium">*****</span><br>
+          </p>
+
+          <input type="range" name="" id="" />
+        </div>
+
+        <div>
+          <p class="font-medium">BY TYPE</p>
+          <input type="checkbox" name="Acoustic Guitar" id="" />
+          <span class="font-medium">ORCHIDS</span> <br />
+          <input type="checkbox" name="Acoustic Guitar" id="" />
+          <span class="font-medium">LILILIES</span> <br />
+          <input type="checkbox" name="Acoustic Guitar" id="" />
+          <span class="font-medium">ROSES</span> <br />
+          <input type="checkbox" name="Acoustic Guitar" id="" />
+          <span class="font-medium">CARNATIONS</span> <br />
+          <input type="checkbox" name="Acoustic Guitar" id="" />
+          <span class="font-medium">MIXED FLOWERS</span> <br />
+        </div>
+
+        <div>
+          <p class="font-medium">BY PRICE</p>
+          <input type="radio" name="Acoustic Guitar" id="" />
+          <span class="font-medium">0-500</span> <br />
+          <input type="radio" name="Acoustic Guitar" id="" />
+          <span class="font-medium">500 ABOVE</span> <br />
+        </div>
+      </section>
+
+      <section class="product-listing">
+        <div class="container-flex flex-wr">
+          <div class="card-container container-flex flex-column">
+            <div class="image-container badge-container">
+              <img
+                src="redrose.jpg"
+                class="img"
+                alt="flower image"
+              />
+            </div>
+            <div class="card-title container-flex">
+              <p class="font-medium margin-m1 padding-p1">
+                Red Roses
+              </p>
+              <span class="margin-m1 font-medium wishlist-icon"
+                ><i class="fa fa-heart" aria-hidden="true"></i
+              ></span>
+            </div>
+            <div class="container-flex flex-column">
+              <p class="card-description margin-m1 padding-p2">
+                Bouquet of 5 red roses with 3 green stems in a glass vase.   
+
+              </p>
+              <p class="card-price margin-m1 padding-p2">
+                Rs. 1975 <strike class="card-strikeprice">Rs. 2195</strike>
+                <span class="card-discount">(10% Off)</span>
+              </p>
+              <button class="btn-shopping-cart font-medium">Add to cart</button>
+            </div>
+          </div>
+
+          <div class="card-container container-flex flex-column">
+            <div class="image-container badge-container">
+              <img
+                src="pinklily.jpg"
+                class="img"
+                alt="flower image"
+              />
+            </div>
+            <div class="card-title container-flex">
+              <p class="font-medium margin-m1 padding-p1">
+                Pink Lillies
+            </p>
+              <span class="margin-m1 font-medium wishlist-icon"
+                ><i class="fa fa-heart" aria-hidden="true"></i
+              ></span>
+            </div>
+            <div class="container-flex flex-column">
+              <p class="card-description margin-m1 padding-p2">
+                Bouquet of 5 Pink lillies with three green stems in a medium glass vase.
+            </p>
+              <p class="card-price margin-m1 padding-p2">
+                Rs. 1975 <strike class="card-strikeprice">Rs. 2195</strike>
+                <span class="card-discount">(10% Off)</span>
+              </p>
+              <button class="btn-shopping-cart font-medium">Add to cart</button>
+            </div>
+          </div>
+
+          <div class="card-container container-flex flex-column">
+            <div class="image-container badge-container">
+              <img
+                src="mixedflowers.jpg"
+                class="img"
+                alt="flower image"
+              />
+            </div>
+            <div class="card-title container-flex">
+              <p class="font-medium margin-m1 padding-p1">
+                Mixed Flowers
+              </p>
+              <span class="margin-m1 font-medium wishlist-icon"
+                ><i class="fa fa-heart" aria-hidden="true"></i
+              ></span>
+            </div>
+            <div class="container-flex flex-column">
+              <p class="card-description margin-m1 padding-p2">
+                Fragrant 10 Mixed Flowers with two green stems in a medium glass vase.
+              <p class="card-price margin-m1 padding-p2">
+                Rs. 1975 <strike class="card-strikeprice">Rs. 2195</strike>
+                <span class="card-discount">(10% Off)</span>
+              </p>
+              <button class="btn-shopping-cart font-medium">Add to cart</button>
+            </div>
+          </div>
+
+          <div class="card-container container-flex flex-column">
+            <div class="image-container badge-container">
+              <img
+                src="redcarnation.jpg"
+                class="img"
+                alt="flower image"
+              />
+            </div>
+            <div class="card-title container-flex">
+              <p class="font-medium margin-m1 padding-p1">
+                Red Carnations
+              </p>
+              <span class="margin-m1 font-medium wishlist-icon"
+                ><i class="fa fa-heart" aria-hidden="true"></i
+              ></span>
+            </div>
+            <div class="container-flex flex-column">
+              <p class="card-description margin-m1 padding-p2">
+                Fragrant 10 Red Carnations with two green stems in a medium glass vase.
+            </p>
+              <p class="card-price margin-m1 padding-p2">
+                Rs. 1975 <strike class="card-strikeprice">Rs. 2195</strike>
+                <span class="card-discount">(10% Off)</span>
+              </p>
+              <button class="btn-shopping-cart font-medium">Add to cart</button>
+            </div>
+          </div>
+
+          <div class="card-container container-flex flex-column">
+            <div class="image-container badge-container">
+              <img
+                src="pinkmothorchid.jpg"
+                class="img"
+                alt="flower image"
+              />
+            </div>
+            <div class="card-title container-flex">
+              <p class="font-medium margin-m1 padding-p1">
+                Pink Moth Orchids
+              </p>
+              <span class="margin-m1 font-medium wishlist-icon"
+                ><i class="fa fa-heart" aria-hidden="true"></i
+              ></span>
+            </div>
+            <div class="container-flex flex-column">
+              <p class="card-description margin-m1 padding-p2">
+                Fragrant 7 Pink Moth Orchids with two green stems in a medium glass vase.
+            </p>
+              <p class="card-price margin-m1 padding-p2">
+                Rs. 9175 <strike class="card-strikeprice">Rs. 2195</strike>
+                <span class="card-discount">(10% Off)</span>
+              </p>
+              <button class="btn-shopping-cart font-medium">Add to cart</button>
+            </div>
+          </div>
+
+          <div class="card-container container-flex flex-column">
+            <div class="image-container badge-container">
+              <img
+                src="whiteorchid.jpg"
+                class="img"
+                alt="flower image"
+              />
+            </div>
+            <div class="card-title container-flex">
+              <p class="font-medium margin-m1 padding-p1">
+               White Orchids 
+            </p>
+              <span class="margin-m1 font-medium wishlist-icon"
+                ><i class="fa fa-heart" aria-hidden="true"></i
+              ></span>
+            </div>
+            <div class="container-flex flex-column">
+              <p class="card-description margin-m1 padding-p2">
+                2 stems of white Orchids  with 3 grren stems in a medium glass vase.
+              </p>
+              <p class="card-price margin-m1 padding-p2">
+                Rs. 1975 <strike class="card-strikeprice">Rs. 2195</strike>
+                <span class="card-discount">(10% Off)</span>
+              </p>
+              <button class="btn-shopping-cart font-medium">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
