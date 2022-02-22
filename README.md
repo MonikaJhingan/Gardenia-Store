@@ -21,11 +21,13 @@ This website includes the following pages.
 ![wishlist (2)](https://user-images.githubusercontent.com/67049170/155066908-77a03c3f-0f27-478e-bf2b-484079f157ad.png)
 ![product listing](https://user-images.githubusercontent.com/67049170/155066914-92e5e305-d449-4bae-a014-77867e76fc4e.png)
 ![login (2)](https://user-images.githubusercontent.com/67049170/155066922-e14ea976-29b0-4141-ad99-8ffc35d9da4f.png)
-![signup (2)](https://user-images.githubusercontent.com/67049170/155066936-c700ec6e-80a0-45bc-88ee-444717901948.png)
+![login](https://user-images.githubusercontent.com/67049170/155072504-f1b7597e-26ae-4cfb-b365-2b4dcfcead4c.png)
+
 ![Screenshot (222)](https://user-images.githubusercontent.com/67049170/155067114-d881a3cc-24d6-452c-962e-070eee301b71.png)
 
 # Demo
 https://user-images.githubusercontent.com/67049170/155072278-284a9dc8-45c6-4892-a1b4-48a30e6928a0.mp4
+
 
 
 
