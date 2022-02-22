@@ -10,7 +10,7 @@
   --white-color:#fff;
   --grey-color:#808080;
   --peach-color:rgb(241, 203, 219);
-
+  --green-color:rgb(16, 175, 10);
 }
 .navigation {
   margin: 0rem;
@@ -31,7 +31,7 @@
   width: 100%;
 }
 .badge {
-  border-radius: 3rem;
+  border-radius: 1rem;
   background-color:magenta;
 }
 
@@ -54,23 +54,15 @@
 
 .footer {
   height: 15rem;
+  background-color: var(--peach-color);
 }
 
-.footer__icon {
-  display: flex;
-  justify-content: space-around;
-  width: 10rem;
-  height: 10rem;
-}
 
 .card-container {
   height: 52rem;
 }
 
-.btn-link {
-  width: 20rem;
-  height: 4rem;
-}
+
 .code-container {
     width: 100%;
   }
@@ -89,13 +81,19 @@
     height: 60vh;
   }
   
-  .footer {
-    height: 25rem;
-  }
-  
+
   .footer__icon {
     display: flex;
     justify-content: space-around;
     width: 10rem;
     height: 10rem;
+  }
+  .btn-link{
+    height: 4rem;
+    background-color: var(--green-color);
+
+  }
+  .btn{
+    background-color: var(--green-color);
+
   }

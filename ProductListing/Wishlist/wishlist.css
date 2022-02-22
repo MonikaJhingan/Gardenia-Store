@@ -9,6 +9,7 @@
   --white-color: #fff;
   --grey-color: #808080;
   --peach-color:rgb(241, 203, 219);
+  --green-color:rgb(16, 175, 10);
 }
 .navigation {
   width: 100%;
@@ -30,4 +31,12 @@
 }
 .icon-color:hover {
   color: #dd2626;
+}
+.btn-shopping-cart{
+  background-color: var(--green-color);
+
+}
+.btn{
+  background-color: var(--green-color);
+
 }
