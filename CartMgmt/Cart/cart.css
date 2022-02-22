@@ -9,10 +9,11 @@
   --white-color: #fff;
   --grey-color: #808080;
   --peach-color:rgb(241, 203, 219);
+  --green-color:rgb(16, 175, 10);
 
 }
 .navigation {
-  margin: 0;
+  margin: 0rem;
   width: 100%;
   background-color: var(--peach-color);
 }
@@ -20,6 +21,7 @@
 .icon-heart,
 .icon-cart {
   font-size: 3rem;
+  
 }
 
 .cart-item {
@@ -72,15 +74,26 @@ hr.someClass {
 }
 .order-btn {
   width: 50%;
-  border-radius: 3rem;;
+  border-radius: 3rem;
+  background-color: var(--green-color);
+
 }
 .btn-link {
-  width: 20rem;
-  height: 1.9rem;
-  font-size:2.rem;
+  width: 19rem;
+  height: 2rem;
+  font-size:1.8rem;
   position:absolute;
-  margin-top: 6.5rem;
+  margin-top: 5.8rem;
   text-align:center;
+  background-color: var(--green-color);
+  margin-left: 2rem;
+
 }
+.btn-shopping-cart{
+  background-color: var(--green-color);
 
+}
+.btn{
+  background-color: var(--green-color);
 
+}

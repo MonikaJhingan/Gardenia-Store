@@ -8,7 +8,8 @@
 :root{
   --white-color:#fff;
   --grey-color:#808080;
-  --peach-color:rgb(241, 203, 219);;
+  --peach-color:rgb(241, 203, 219);
+  --green-color:rgb(16, 175, 10);
 
 }
 .navigation {
@@ -38,4 +39,13 @@ input[type=checkbox],input[type=radio]{
 }
 .btn-shopping-cart:hover{
     color: black;
+
+}
+.btn-shopping-cart{
+  background-color: var(--green-color);
+
+}
+.btn{
+  background-color: var(--green-color);
+
 }
